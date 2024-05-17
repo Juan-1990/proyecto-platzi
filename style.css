@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* barra header de navegacion */
+
+.header{
+    background-color: rgb(138, 138, 221);
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    border: 3px solid rgb(108, 108, 192);
+}
+
+.nav{
+    font-size: 2.5rem;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+.nav a{
+    margin: 50px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgb(117, 117, 189);
+    border-radius: 5px;
+    border: solid rgb(135, 101, 173);
+    color: white;
+}
+
+/* barra lateral de navegacion */
+
+.nav-lateral{
+    border: solid  4px rgb(117, 117, 189);
+    width: 20%;
+    height: 720px;
+}
+
+.nav-lateral a{
+    text-decoration: none;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.caja1, .caja2, .caja3, .caja4{
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* contenido principal */
+
