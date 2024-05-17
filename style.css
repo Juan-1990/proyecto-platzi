@@ -66,6 +66,59 @@ html{
 }
 /* contenido principal */
 
-.main{
-    background-color: blueviolet;
+/* .principal{
+    border: 3px solid black;
+    position: relative;
+    padding-top: 350px;
+    padding-bottom: 365px;
+    bottom: 720px;
+    width: 100%;
+} */
+
+
+.contenedor{
+    display: flex;
+}
+
+.principal{
+    /* background-color: rgb(117, 117, 189; */
+    border: 3px solid black;
+    padding-left: 800px;
+    width: 100%;
+    /* display: inline-block; */
+    
+    
+}
+
+.principal, .space1, .space2, .space3, .space4{
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-flex;
+    
+    
+}
+
+.space1, .space2, .space3, .space4{
+    position: relative;
+  
+}
+
+.space1{
+    right: 800px;
+    width: 300px;
+}
+
+.space2{
+    right: 700px;
+    width: 300px;
+}
+
+.space3{
+    right: 600px;
+    width: 300px;
+}
+
+.space4{
+    right: 500px;
+    width: 300px;
 }
